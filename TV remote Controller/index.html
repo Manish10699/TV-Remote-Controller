@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TV Screen and Remote</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Use the remote control to switch channels</h1>
+<span></span>
+
+<div class="remote">
+  <div class="inner">
+    <div id="control0" class="control0"><div class="on"><h5>|</h5></div></div>
+    <div id="control02" class="control02"></div>
+    <div id="control1" class="control1" onclick="changeChannel(1)">1</div>
+    <div id="control2" class="control2" onclick="changeChannel(2)">2</div>
+    <div id="control3" class="control3" onclick="changeChannel(3)">3</div>
+    <div id="control4" class="control4" onclick="changeChannel(4)">4</div>
+    <div id="control5" class="control5" onclick="changeChannel(5)">5</div>
+    <div id="control6" class="control6" onclick="changeChannel(6)">6</div>
+    <div id="control7" class="control7" onclick="changeChannel(7)">7</div>
+    <div id="control8" class="control8" onclick="changeChannel(8)">8</div>
+    <div id="control9" class="control9" onclick="changeChannel(9)">9</div>
+    <div id="control10" class="control10" onclick="changeChannel(10)">i</div>
+    <div id="control11" class="control11" onclick="changeChannel(11)"></div>
+    <div id="control12" class="control12" onclick="changeChannel(12)"></div>
+    <div id="control13" class="control13" onclick="changeChannel(13)"></div>
+  </div>
+</div>
+
+<div class="container">
+  <div id="hiddenDiv0" class="hidden-div">
+    <video id="videoPlayer11" autoplay >
+        <source src="switch off.mp4" type="video/mp4">
+      </video>
+  </div> <!-- tv off -->
+  
+  <div id="hiddenDiv02" class="hidden-div" style="display: block;"> <!--channel  direct visssable  -->
+    <video id="videoPlayer22" autoplay loop>
+      <source src="https://tofja.000webhostapp.com/journal.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>SCREENSAVER</h3></div>
+  </div>
+  
+  <div id="hiddenDiv1" class="hidden-div"> <!--channel 1 musicals  -->
+    <video id="videoPlayer1" autoplay loop>
+      <source src="music.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>CH1 - MUSICALS</h3></div>
+  </div>
+
+  <div id="hiddenDiv2" class="hidden-div"> <!--channel 2 sports  -->
+    <video id="videoPlayer2" autoplay loop>
+      <source src="sports.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>CH2 - SPORTS</h3></div>
+  </div>
+
+  <!-- Add more hiddenDivs for other channels -->
+  <div id="hiddenDiv3" class="hidden-div"> <!--channel 3 documentaries  -->
+    <video id="videoPlayer3" autoplay loop>
+      <source src="documentry.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>CH3 - DOCUMENTARIES</h3></div>
+  </div>
+
+  <div id="hiddenDiv4" class="hidden-div"> <!--channel 4 news  -->
+    <video id="videoPlayer4" autoplay loop>
+      <source src="news.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>CH4 - NEWS</h3></div>
+  </div>
+
+  <div id="hiddenDiv5" class="hidden-div"> <!--channel 5 discovery -->
+    <video id="videoPlayer5" autoplay loop>
+      <source src="discovery.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>CH5-Descovery</h3></div>
+  </div>
+
+  <div id="hiddenDiv6" class="hidden-div"> <!--channel 6 anime  -->
+    <video id="videoPlayer6" autoplay loop>
+      <source src="anime.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>CH6-Anime</h3></div>
+  </div>
+
+  <div id="hiddenDiv7" class="hidden-div"> <!--channel 7 motogp  -->
+    <video id="videoPlayer7" autoplay loop>
+      <source src="motogp.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>Moto GP </h3></div>
+  </div>
+
+  <div id="hiddenDiv8" class="hidden-div"> <!--channel 8carrace  -->
+    <video id="videoPlayer8" autoplay loop>
+      <source src="carrace.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>car racing</h3></div>
+  </div>
+
+  <div id="hiddenDiv9" class="hidden-div"> <!--channel  9 movies -->
+    <video id="videoPlayer9" autoplay loop>
+      <source src="movie.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3>Movies</h3></div>
+  </div>
+
+  <div id="hiddenDiv9" class="hidden-div"> <!--channel  info -->
+    <video id="videoPlayer10" autoplay loop>
+      <source src="uncubscribe.mp4" type="video/mp4">
+    </video>
+    <div class="content"><h3></h3></div>
+  </div>
+
+  
+  <!-- Add more hiddenDivs for other channels -->
+
+</div>
+
+<Script src="script.js"></Script>
+
+</body>
+</html>

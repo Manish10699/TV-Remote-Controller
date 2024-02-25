@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:wght@700&display=swap');
+
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    background-color: rgb(216, 223, 216);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: left;
+}
+
+span {
+    font-size: 20px;
+    color: brown;
+}
+
+.remote {
+    float: left;
+    margin-top: 20%;
+    margin-left: 50px;
+    display: flex;
+    padding: 15px 10px;
+    justify-content: center;
+    transform: rotate(7deg);
+    width: 70px;
+    height: 200px;
+    background-color: rgb(49, 48, 48);
+    border-radius: 5px;
+    border: 2px solid rgb(5, 5, 5);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.inner {
+    display: grid;
+    grid-template-columns: 25px 25px 25px;
+    grid-template-rows: 25px 25px 25px 25px;
+    gap: 5px 5px;
+    text-align: center;
+    font-size: 13px;
+    color: antiquewhite;
+    grid-auto-flow: row;
+    justify-content: center;
+    justify-items: center;
+    grid-template-areas: ". . ." ". . ." ". . ." ". . ." ". . ." ". . .";
+}
+
+.control0, .control02 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: brown;
+    color: antiquewhite;
+    text-align: center;
+    border: 1px solid rgb(70, 20, 20);
+    cursor: pointer;
+}
+
+.on {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: transparent;
+    border: 2px solid rgb(245, 243, 240);
+    border-top-color: transparent;
+}
+
+h5 {
+    margin-top: -2px;
+    font-size: 8px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.control1, .control2, .control3, .control4, .control5, .control6, .control7, .control8, .control9, .control10, .control11, .control12, .control13 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(245, 239, 239);
+    color: rgb(53, 53, 52);
+    border: 1px solid rgb(165, 162, 162);
+    cursor: pointer;
+}
+
+.control11 {
+    background-color: yellow;
+    color: rgb(53, 53, 52);
+    border: 1px solid rgb(31, 31, 30);
+    cursor: pointer;
+}
+
+.control12 {
+    background-color: blue;
+    color: rgb(53, 53, 52);
+    cursor: pointer;
+    border: 1px solid rgb(31, 31, 30);
+}
+
+.control13 {
+    background-color: green;
+    color: rgb(53, 53, 52);
+    border: 1px solid rgb(31, 31, 30);
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    width: 750px;
+    height: 420px;
+    margin: 0 auto;
+    margin-left: 350px;
+    margin-top: 50px;
+    color: antiquewhite;
+    background-color: rgb(36, 33, 33);
+    border: 7px solid rgb(3, 0, 0);
+    border-radius: 5px;
+    outline: 2px solid rgb(78, 75, 75);
+}
+
+h3 {
+    color: rgb(247, 240, 240);
+    font-size: 14px;
+    text-shadow: 2px 1px 1px rgb(0, 0, 0);
+}
+
+.content {
+    display: flex;
+    margin-top: -430px;
+    width: 100%;
+}
+
+.hidden-div, .hidden-div1, .hidden-div2, .hidden-div3, .hidden-div4, .hidden-div5, .hidden-div6, .hidden-div7, .hidden-div8, .hidden-div9, .hidden-div10, .hidden-div11, .hidden-div12, .hidden-div13, .hidden-div14, .hidden-div15, .hidden-div16 {
+    display: none;
+    padding: 10px;
+    color: antiquewhite;
+    height: 455px;
+}
+
+.hiddenDiv0 {
+    display: none;
+    background-color: black;
+    height: 430px;
+}
+
+.hiddenDiv02 {
+    display: none;
+    background-color: black;
+    height: 430px;
+}
+
+video {
+    margin-top: -16px;
+    margin-left: -17px;
+    height: 430px;
+}
+video {
+    width: 105%;
+    height: 95%;
+    object-fit: cover;
+  }
